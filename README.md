@@ -1,4 +1,4 @@
-# pig
+# 个人开源discuz插件之猪头术
 discuz猪头术插件使用方法：
 
 0x01.Download zip 或者git clone https://github.com/zephyruslove/pig.git
