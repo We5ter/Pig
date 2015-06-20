@@ -7,6 +7,6 @@ discuz猪头术插件使用方法：
 
 0x03.在discuz管理中心启用
 
-demo:
+0x04.demo:
 ![image](https://github.com/zephyruslove/pig/blob/master/pig.png)
 
