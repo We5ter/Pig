@@ -8,5 +8,10 @@ discuz猪头术插件使用方法：
 0x03.在discuz管理中心启用
 
 0x04.demo:
+##前台##
+商店：
 ![image](https://github.com/zephyruslove/pig/blob/master/pig.png)
-
+选择效果：
+![image](https://github.com/zephyruslove/pig/blob/master/pig2.png)
+##管理中心后台设置##
+![image](https://github.com/zephyruslove/pig/blob/master/pig3.png)
