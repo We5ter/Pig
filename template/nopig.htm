@@ -1,0 +1,61 @@
+<!--{template common/header}-->
+<style type="text/css">
+	.rfm .left th, .rfm .left td{text-align: left; padding:0 0 2px 0;}
+	.rfm .left{margin-left: 58px;}
+</style>
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a><em>&rsaquo;</em> <a href="#">应用</a><em>&rsaquo;</em> <a href="{$this->_PIG['baseurl']}">{lang pig:hackname}</a><em>&rsaquo;</em> <a href="#">{lang pig:nopig_name}</a>
+	</div>
+</div>
+<div id="ct" class="ptm wp w cl">
+	<div class="mn" id="main_message">
+		<div class="bm">
+			<div class="bm_h bbs">
+				<h3 class="xs2">{lang pig:nopig_head}</h3>
+			</div>
+			<div class="rfm bw0">
+				<h3 class="flb">{lang pig:nopig_notice}</h3>
+				<div style="padding: 0 10px 10px 10px;">
+					<p>{lang pig:nopig_description}</p>
+					<p>{lang pig:nopig_desc_more}</p>
+					<p>{lang pig:nopig_topig}</p>
+				</div>
+			</div></div></div>
+<form method="post" autocomplete="off" action="{$this->_PIG['baseurl']}&action=nopig">
+	<div class="c cl">
+		<input type="hidden" name="nopigsubmit" value="yes">
+		<input type="hidden" value="{$hash}" name="verify">
+		<div class="rfm">
+			<table><tbody><tr>
+				<th><label for="nopiguser">{lang pig:nopig_username}</label></th>
+				<td><input type="text" id="nopiguser" name="nopiguser" size="30" class="px p_fre" tabindex="1" value="{$_GET['touser']}"></td>
+			</tr></tbody></table>
+		</div>
+		<div class="rfm">
+			<table class="left"><tbody>
+				<tr><th>{lang pig:nopig_tool_head}</th></tr>
+				<tr>
+					<th><input type="radio" value="1" name="nopigid" id="nopig1" checked="true"><label for="nopig1">{lang pig:nopig_tool1_name}</label></th>
+					<td>{lang pig:nopig_tool1_notice}</td>
+				</tr>
+				<tr>
+					<th><input type="radio" value="2" name="nopigid" id="nopig2"><label for="nopig2">{lang pig:nopig_tool2_name}</label></th>
+					<td>{lang pig:nopig_tool2_notice}</td>
+				</tr>
+			</tbody></table>
+		</div>
+
+		<div class="rfm mbw bw0">
+			<table width="100%">
+				<tbody><tr>
+					<th>&nbsp;</th>
+				<td>
+					<button class="pn pnc" type="submit" tabindex="1"><strong>{lang pig:nopig_do}</strong></button>
+				</td>
+			</tr></tbody></table>
+		</div>
+	</div>
+</form>
+</div>
+<!--{template common/footer}-->

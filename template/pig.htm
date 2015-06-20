@@ -1,0 +1,61 @@
+<!--{template common/header}-->
+<style type="text/css">
+	#pig_tip{padding: 0 10px 10px 10px;}
+	#pig_list img{cursor: pointer;}
+	.spilter{vertical-align: top; height: 35px; border-bottom: 1px dashed #CDCDCD;}
+</style>
+<script type="text/javascript">
+	function selectPig(e){
+		pigid=e.id.slice(3);
+		sp='<div style="width:350px;"><div style="height:150px;" class="z"><img src="'+$('pig'+pigid).src+'" style="padding:0 10px;"/></div><form autocomplete="off" style="padding:0 10px 10px 10px;" action="plugin.php?id=pig&action=pig" method="POST"><p><strong>请确认您选择的猪头！</strong></p><div><input type="hidden" name="formhash" value="{FORMHASH}"><input type="hidden" name="pigid" value="'+pigid+'"><div class="mtm">请输入对方用户名:<br /><input type="text" name="piguser" style="width:140px" value="" class="px"></div><div class="mtn">请选择生效时间:<br /><select name="pigtime" style="width:150px" class="ps"><option value="1">1小时</option><option value="2">2小时</option><option value="6">6小时</option><option value="12">12小时</option><option value="24">24小时</option></select></div><div class="cl"><button type="submit" class="pn pnc y mtw"><strong>开始本世纪最恶毒的诅咒!</strong></button><input type="hidden" value="{$hash}" name="verify"><input type="hidden" value={FORMHASH} name="formhash"></div></form></div>';
+		showDialog(sp,'info','确认施咒',null,1);
+	}
+</script>
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a><em>&rsaquo;</em> <a href="#">应用</a><em>&rsaquo;</em><a href="#">{lang pig:hackname}</a>
+	</div>
+</div>
+<div id="ct" class="ptm wp w cl">
+	<div class="mn" id="main_message">
+		<div class="bm">
+			<div class="bm_h bbs">
+				<h3 class="xs2">{lang pig:top}</h3>
+			</div>
+			<div class="rfm bw0">
+				<h3 class="flb">{lang pig:notice}</h3>
+				<div id="pig_tip">
+					<p>{lang pig:description}</p>
+					<p>{lang pig:piglist_msg}</p>
+					<p>{lang pig:nopig}</p>
+				</div>
+			</div></div></div>
+	<h3 class="xs2">{lang pig:selectsay}</h3>
+	<table width="100%" cellspacing="0" cellpadding="0" id="pig_list">
+		<tbody>
+		<tr height="180">
+			{eval for($i = $pigStart ; $i <= 8 ; $i++){ if($i>$pigEnd) break;}
+			<td align="center"><img src="{$imageSrc}/{$i}.gif" onclick="selectPig(this);" id="pig{$i}"></td>
+			{eval }}
+		</tr>
+		<tr class="spilter">
+			{eval for($i = $pigStart ; $i <= 8 ; $i++){ if($i>$pigEnd) break;}
+			<td align="center"><button type="button" onclick="selectPig(this);" id="btn{$i}" class="pn"><em>选择</em></button></td>
+			{eval }}
+		</tr>
+		<tr height="180">
+			{eval for($i = 9; $i <= $pigEnd ; $i++){}
+			<td align="center"><img src="{$imageSrc}/{$i}.gif" onclick="selectPig(this);" id="pig{$i}"></td>
+			{eval }}
+		</tr>
+		<tr>
+			{eval for($i = 9; $i <= $pigEnd ; $i++){}
+			<td align="center"><button type="button" onclick="selectPig(this);" id="btn{$i}" class="pn"><em>选择</em></button></td>
+			{eval }}
+		</tr>
+	</tbody></table>
+	<div class="mtw mbn cl">
+		{$multiPages}
+	</div>
+</div>
+<!--{template common/footer}-->

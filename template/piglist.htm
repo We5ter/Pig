@@ -1,0 +1,25 @@
+<!--{template common/header}-->
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a><em>&rsaquo;</em> <a href="#">应用</a><em>&rsaquo;</em> <a href="#">{lang pig:hackname}</a><em>&rsaquo;</em> <a href="#">{lang pig:piglist}</a>
+	</div>
+</div>
+<div id="ct" class="ptm wp w cl">
+	<table cellspacing="0" cellpadding="0" class="dt">
+		<thead>
+			<tr>
+				<th>{lang pig:curse_user}</th><th>{lang pig:cursed_user}</th><th>{lang pig:curse_intro}</th><th>{lang pig:curse_stime}</th><th>{lang pig:curse_etime}</th><th class="c">{lang pig:curse_help}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!--{loop $pigList $list}-->
+			<tr><td>{$list['usera']}</td><td>{$list['userb']}</td><td>使用了猪头{$list['type']}号{$list['time']}小时</td><td>{$list['starttime']}</td><td>{$list['overtime']}</td><td>{lang pig:help_TA}</td></tr>		
+			<!--{/loop}-->
+		</tbody>
+	</table>
+	<div class="mtm mbn cl">
+		{$pages}
+		<span class="pgb y"><a href="{$this->_PIG['baseurl']}">返回猪头术</a></span>
+	</div>
+</div>
+<!--{template common/footer}-->

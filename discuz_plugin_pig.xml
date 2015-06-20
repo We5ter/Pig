@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3]]></item>
+	<item id="Time"><![CDATA[2013-10-07 14:35]]></item>
+	<item id="From"><![CDATA[清水河畔 (http://newsvn.stuhome.net/discuztmpfs/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[猪头术]]></item>
+			<item id="identifier"><![CDATA[pig]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[pig/]]></item>
+			<item id="copyright"><![CDATA[star studio]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[pig]]></item>
+					<item id="menu"><![CDATA[猪头术]]></item>
+					<item id="url"><![CDATA[plugin.php?id=pig]]></item>
+					<item id="type"><![CDATA[5]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[pig]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[是否开启猪头术]]></item>
+				<item id="description"><![CDATA[关闭后普通会员不能进入，只有管理员用户组的用户才能进入]]></item>
+				<item id="variable"><![CDATA[pig_status]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[诅咒1小时的金钱]]></item>
+				<item id="description"><![CDATA[金钱默认为水滴，如果需要更改货币，需要修改程序代码]]></item>
+				<item id="variable"><![CDATA[pig_money]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[诅咒的基本成功率]]></item>
+				<item id="description"><![CDATA[单位 %
+在不算入威望差的条件下，诅咒的基本成功率]]></item>
+				<item id="variable"><![CDATA[pig_rate]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[70]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[解咒的基本成功率]]></item>
+				<item id="description"><![CDATA[单位 %
+在没有使用道具的条件下，解咒的基本成功率]]></item>
+				<item id="variable"><![CDATA[pig_nopigrate]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[60]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[解咒的基本费用]]></item>
+				<item id="description"><![CDATA[默认为水滴
+在没有使用道具的条件下，解咒的基本费用]]></item>
+				<item id="variable"><![CDATA[pig_nopigmoney]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[8]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[神符 的附加概率]]></item>
+				<item id="description"><![CDATA[单位 %
+在使用 神符 解咒，附加的成功概率]]></item>
+				<item id="variable"><![CDATA[pig_nopig1rate]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[还我漂漂拳 的附加概率 ... ...]]></item>
+				<item id="description"><![CDATA[单位 %
+用 还我漂漂拳 解咒时，附件的解咒成功概率]]></item>
+				<item id="variable"><![CDATA[pig_nopig2rate]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[20]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[神符 的冷却时间]]></item>
+				<item id="description"><![CDATA[单位 分(min)
+在使用 神符 解咒时，失败后的冷却时间]]></item>
+				<item id="variable"><![CDATA[pig_nopig1cd]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[5]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[还我漂漂拳 的冷却时间 ... ...]]></item>
+				<item id="description"><![CDATA[单位 分(min)
+在使用 还我漂漂拳 解咒时，失败时的冷却时间]]></item>
+				<item id="variable"><![CDATA[pig_nopig2cd]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[神符 的额外费用]]></item>
+				<item id="description"><![CDATA[在使用 神符 解咒时，需要的额外费用]]></item>
+				<item id="variable"><![CDATA[pig_nopig1money]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[还我漂漂拳 的额外费用 ...]]></item>
+				<item id="description"><![CDATA[在使用 还我漂漂拳 解咒时，需要的额外费用]]></item>
+				<item id="variable"><![CDATA[pig_nopig2money]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[20]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[猪头术的个数]]></item>
+				<item id="description"><![CDATA[猪头术的个数，请不要填入比实际猪头个数多的数字！]]></item>
+				<item id="variable"><![CDATA[pignum]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[16]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="pig_manage"><![CDATA[猪头术管理]]></item>
+				<item id="pig_add"><![CDATA[添加猪头]]></item>
+				<item id="pig_list"><![CDATA[查看现有猪头]]></item>
+				<item id="pig_edit"><![CDATA[修改猪头术配置]]></item>
+				<item id="pig_close"><![CDATA[由于城管太严，猪头术暂定关闭。。。]]></item>
+				<item id="pig_credit"><![CDATA[水滴]]></item>
+				<item id="pig_status"><![CDATA[是否开启诅咒术功能]]></item>
+				<item id="pig_money"><![CDATA[每次诅咒一小时所花费]]></item>
+				<item id="pig_rate"><![CDATA[诅咒的成功率]]></item>
+				<item id="pig_nopigrate"><![CDATA[解咒的基本成功率]]></item>
+				<item id="pig_nopigmoney"><![CDATA[解咒的基本费用]]></item>
+				<item id="nopig_tool1_name"><![CDATA[神符]]></item>
+				<item id="nopig_tool2_name"><![CDATA[还我漂漂拳]]></item>
+				<item id="pig_nopig1cd"><![CDATA[解咒方法1“神符”的冷却时间]]></item>
+				<item id="pig_nopig1money"><![CDATA[解咒方法1“神符”的附加费用]]></item>
+				<item id="pig_nopig1rate"><![CDATA[解咒方法1“神符”的附加成功率]]></item>
+				<item id="pig_nopig2cd"><![CDATA[解咒方法2“还我漂漂拳”的冷却时间]]></item>
+				<item id="pig_nopig2money"><![CDATA[解咒方法2“还我漂漂拳”的附加费用]]></item>
+				<item id="pig_nopig2rate"><![CDATA[解咒方法2“还我漂漂拳”的附加成功率]]></item>
+				<item id="pig_submit"><![CDATA[提交]]></item>
+				<item id="input_user_error"><![CDATA[你连一个不存在的人都诅咒，太狠毒了（不过我喜欢^-^）]]></item>
+				<item id="input_pigid_error"><![CDATA[地球上没有这种猪头~~请联系管理员，我们会尽快捕获这头猪，将它的头砍下来给你猪头用~！]]></item>
+				<item id="input_pigtime_error"><![CDATA[星辰工作室的巫师能力不够=-=!，不能满足你的时间~]]></item>
+				<item id="input_hash_error"><![CDATA[验证码错误，请重新刷新页面后在诅咒。。。]]></item>
+				<item id="pig_self_error"><![CDATA[你连自己都看不顺眼么-_-!，那你活着还有什么意义=_=!]]></item>
+				<item id="money_lack"><![CDATA[<b>more gold is required</b>巫师瞅了瞅你的钱包，就关门专研巫术去了~~~]]></item>
+				<item id="user_pigging"><![CDATA[此人被诅咒ing... -_-! 你就不能等他先变回人形么]]></item>
+				<item id="pig_fail"><![CDATA[<b>诅咒失败</b><br>星辰的大巫师<b>祥子_mei骆驼</b>已经尽力了，但还是失败了。。。]]></item>
+				<item id="pig_success"><![CDATA[<b>诅咒成功</b></br>巫师<b>祥子_mei骆驼</b>诡笑地拿下你的钱，说到：区区小头，何足挂齿，有钱我还能变别的！]]></item>
+				<item id="pig_fail_message"><![CDATA[坏消息，坏消息，{pigAuthor} 看你不顺眼了,试图给你下头像变猪头的诅咒，不过这次他没成功。不知道他会不会再来一次的哦。</br>想诅咒TA?点击<a href="plugin.php?id=pig">这里</a>试试吧]]></item>
+				<item id="pig_success_message"><![CDATA[坏消息，坏消息，{pigAuthor} 看你不顺眼了，成功的给你下了头像变猪头{pigtime}小时的诅咒，这个人真是太恶毒了。</br>如果不服气赶快点击<a href="plugin.php?id=pig">这里</a>去报复TA吧？哈哈。]]></item>
+				<item id="nopig_user_error"><![CDATA[请输入一个你要解咒用户名。。。]]></item>
+				<item id="nopig_tool_error"><![CDATA[你要的使用道具星辰大巫师<b>祥子_mei骆驼</b>正在研发中^_^]]></item>
+				<item id="nopig_user_noexistence"><![CDATA[你输入的用户不存在。。。]]></item>
+				<item id="nopig_user_notin"><![CDATA[你输入的用户没有被诅咒。。你想 <a href="{baseurl}">诅咒</a> TA么，诅咒我们可不专业。。。^_^]]></item>
+				<item id="nopig_lack_money"><![CDATA[<b>more gold is required</b></br>你带的钱不够。。。当然你可以找星辰的巫师贷款。。他只需要你的一颗爱心。。]]></item>
+				<item id="nopig_cdtime"><![CDATA[星辰大巫师<b>祥子mei_骆驼</b>正在冷却他的技能..到{cddate}]]></item>
+				<item id="nopig_fail_pm"><![CDATA[你好， {gooduser} 想用 {nopigtoolname} 为你解除猪头咒，可惜天不遂人愿，他失败了！]]></item>
+				<item id="nopig_fail"><![CDATA[星辰大巫师<b>祥子mei_骆驼</b>使出浑身邪术。。可还是失败了。。]]></item>
+				<item id="nopig_success_pm"><![CDATA[你好，{gooduser} 看了你的猪头感到痛心疾首，成功地用 {nopigtoolname} 给你解除了诅咒，这个人真是太善良了，发个消息感谢他吧！]]></item>
+				<item id="nopig_success"><![CDATA[解咒成功！</br><b>祥子mei_骆驼</b>低语：我研发的巫术我当然能控制！]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="hackname"><![CDATA[猪头术]]></item>
+				<item id="top"><![CDATA[猪头术说明]]></item>
+				<item id="notice"><![CDATA[使用猪头术诅咒成功后，对方的头像将会变成指定的猪头且在诅咒的时间内无法更改！]]></item>
+				<item id="description"><![CDATA[诅咒需知：使用猪头术的基本成功率为<span class="xi2">{$this->_PIG['config']['pig_rate']}%</span>,最终成功率还要取决于你与对方的威望差，无论成功还是失败都要收取<span class="xi2">{$this->_PIG['config']['pig_money']}水滴/小时</span>的费用。]]></item>
+				<item id="piglist_msg"><![CDATA[受害的人：你可以<a href="$this->_PIG['baseurl']&action=piglist" class="xi2">单击此处</a>查看正在被施咒的畔友。]]></item>
+				<item id="nopig"><![CDATA[我佛慈悲：你可以<a href="$this->_PIG['baseurl']&action=nopig" class="xi2">单击此处</a>解咒，解咒成功后，对方（你的）的头像将会变回自定义的头像。]]></item>
+				<item id="selectsay"><![CDATA[Hmm... 首先来精心挑选一款猪头吧。。。]]></item>
+				<item id="nopig_name"><![CDATA[解咒中心]]></item>
+				<item id="nopig_head"><![CDATA[解咒说明]]></item>
+				<item id="nopig_notice"><![CDATA[解咒成功后，对方的头像将会变回自定义的头像！]]></item>
+				<item id="nopig_description"><![CDATA[使用解咒术的基本成功率为<span class="xi2">$this->_PIG['config']['pig_nopigrate']%</span>，无论成功还是失败都要收取<span class="xi2">{$this->_PIG['config']['pig_nopigmoney']}水滴/次</span>的基本费用。]]></item>
+				<item id="nopig_desc_more"><![CDATA[除此之外，您需要为使用的道具支付附加的费用，并且有一定的冷却时间（即在此时间内不能再解咒）。]]></item>
+				<item id="nopig_topig"><![CDATA[你可以<a href="$this->_PIG['baseurl']" class="xi2">单击此处</a>诅咒，诅咒成功后，对方的头像将会变成指定的猪头且在诅咒的时间内无法更改。]]></item>
+				<item id="nopig_username"><![CDATA[对方(你的)用户名:]]></item>
+				<item id="nopig_tool_head"><![CDATA[使用道具：]]></item>
+				<item id="nopig_tool1_notice"><![CDATA[成功率$this->_PIG['config']['pig_nopig1rate']% 附加费用：$this->_PIG['config']['pig_nopig1money']水滴/次 冷却时间：{$this->_PIG['config']['pig_nopig1cd']}分钟]]></item>
+				<item id="nopig_tool2_notice"><![CDATA[成功率$this->_PIG['config']['pig_nopig2rate']% 附加费用：$this->_PIG['config']['pig_nopig2money']水滴/次 冷却时间：{$this->_PIG['config']['pig_nopig2cd']}分钟]]></item>
+				<item id="nopig_tool1_name"><![CDATA[神符]]></item>
+				<item id="nopig_tool2_name"><![CDATA[还我漂漂拳]]></item>
+				<item id="nopig_do"><![CDATA[开始解咒!]]></item>
+				<item id="piglist"><![CDATA[猪头榜]]></item>
+				<item id="curse_user"><![CDATA[施咒者]]></item>
+				<item id="cursed_user"><![CDATA[施咒对象]]></item>
+				<item id="curse_intro"><![CDATA[诅咒说明]]></item>
+				<item id="curse_stime"><![CDATA[施咒时间]]></item>
+				<item id="curse_etime"><![CDATA[失效时间]]></item>
+				<item id="curse_help"><![CDATA[解救]]></item>
+				<item id="help_TA"><![CDATA[<a href="$this->_PIG['baseurl']&action=nopig&touser=$list['userb']">解救TA</a>]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>
