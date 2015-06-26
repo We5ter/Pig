@@ -23,4 +23,4 @@ discuz猪头术插件使用方法：
 
 ![image](https://github.com/zephyruslove/pig/blob/master/pig3.png)
 
-@author:fendar@starstudio 请注意保护版权
+@author:fendar
