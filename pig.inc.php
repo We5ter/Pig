@@ -1,7 +1,7 @@
 <?php 
 	/**
 	 * @name pig.inc.php
-	 * @author zhongchao
+	 * @author fendar
 	 * @desciption 对以前河畔2b写的猪头术进行移植
 	 */
 	if( !defined('IN_DISCUZ') ){
