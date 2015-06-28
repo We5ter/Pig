@@ -1,7 +1,7 @@
 <?php 
 	/**
 	 * @name class_pig.php
-	 * @author zhongchao
+	 * @author fendar
 	 * @description 猪头术的控制类
 	 */
 	if( !defined('IN_DISCUZ') || !defined('HACK_ROOT')){
