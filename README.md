@@ -13,14 +13,14 @@ discuz猪头术插件使用方法：
 
 商店：
 
-![image](https://github.com/zephyruslove/pig/blob/master/pig.png)
+![image](https://github.com/zephyruslove/pig/blob/master/demo/pig.png)
 
 选择效果：
 
-![image](https://github.com/zephyruslove/pig/blob/master/pig2.png)
+![image](https://github.com/zephyruslove/pig/blob/master/demo/pig2.png)
 
 ##管理中心后台设置##
 
-![image](https://github.com/zephyruslove/pig/blob/master/pig3.png)
+![image](https://github.com/zephyruslove/pig/blob/master/demo/pig3.png)
 
 @author:fendar
